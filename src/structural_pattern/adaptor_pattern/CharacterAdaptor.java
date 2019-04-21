@@ -18,7 +18,6 @@ public class CharacterAdaptor implements DrawOInterface,DrawXInterface {
         System.out.println("Adapted O to X :");
         drawX.drawCharacterX();
     }
-
     @Override
     public void drawCharacterX() {
         System.out.println("Adapted X to O :");
